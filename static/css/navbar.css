@@ -10,7 +10,7 @@
 
 #navigation{
     top: 0;
-    position: fixed;
+    position: sticky;
     z-index: 999;
     background-color: white;
 }
