@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruthi-{{cat}}</title>
+    <link rel="stylesheet" href="../static/css/navbar.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/specific_products.css">
+    {% include 'bootstrap_css.html' %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <h1>This is {{cat}} page</h1>
+
+
+    {% include 'footer.html' %}
+
+
+    {% include 'bootstrap_js.html' %}
+</body>
+</html>

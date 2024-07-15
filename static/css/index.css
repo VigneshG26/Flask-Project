@@ -91,6 +91,10 @@
     background-color: #f9f9f9;
 }
 
+.product-grid a img:hover, .card:hover{
+    margin-top: -.4rem;
+    transition: all .25s;
+}
 
 
 @media (max-width:360px) {
