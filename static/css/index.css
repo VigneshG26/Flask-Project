@@ -40,7 +40,7 @@
 }
 
 .hr-container h2{
-    padding: 1rem 2rem 0 2rem;
+    padding: 1% 2% 0 2%;
 }
 
 .product-list-hr{
@@ -93,7 +93,11 @@
 
 
 
-
+@media (max-width:360px) {
+    .hr-container h2, .product-list-vr h2{
+        font-size: .6rem;
+    }
+}
 
 @media (max-width:390px) {
     .greet h1{
@@ -104,6 +108,11 @@
     }
 }
 
+@media (min-width: 361px) and (max-width: 520px) {
+    .hr-container h2, .product-list-vr h2{
+        font-size: 1.1rem;
+    }
+}
 
 @media (min-width:391px) and (max-width:550px) {
     .greet h1{

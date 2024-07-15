@@ -1,0 +1,35 @@
+#footer{
+    background-color: #232F3E;
+    width: 100%;
+    color: white;
+}
+
+.footer-cont{
+    width: 90%;
+    margin: 0 5%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+/* .footer-sub-cont{
+    width: 23%;
+} */
+
+.footer-sub-cont li{
+    list-style: none;
+}
+
+.footer-sub-cont a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footer-sub-cont ul h5{
+    font-weight: 700;
+}
+
+
