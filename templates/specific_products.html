@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maruthi-{{cat}}</title>
+    <title>Maruthi {{title}}</title>
     <link rel="stylesheet" href="../static/css/navbar.css">
     <link rel="stylesheet" href="../static/css/footer.css">
     <link rel="stylesheet" href="../static/css/specific_products.css">
@@ -12,8 +12,15 @@
 </head>
 <body>
     {% include 'navbar.html' %}
-
-    <h1>This is {{cat}} page</h1>
+    {% for category in categories %}
+        <div>
+        <img src="{{category['thumbnail']}}" alt="{{category['id']}}" height="300px">
+        <!-- <p>{{category['brand']}}</p>
+        <p>{{category['offer_pice']}}</p>
+        <p>{{category['actula_price']}}</p>
+        <p>{{category['offer_percentage']}}</p> -->
+        </div>
+    {% endfor %}
 
 
     {% include 'footer.html' %}
