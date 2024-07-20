@@ -7,17 +7,136 @@ app = Flask(__name__)
 Toys = [
     {
         'id':1,
-        'thumbnail': '../static/images/kids1.png',
+        'thumbnail': '../static/images/toys/ukids1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/kids1.png',
+        'thumbnail': '../static/images/toys/ukids2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Hot Wheels',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':3,
+        'thumbnail': '../static/images/toys/ukids3.png',
+        'brand':'funskool',
+        'smalld': 'Toy Car',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':4,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':5,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':6,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':7,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':8,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':9,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':10,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':11,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':12,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':13,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':14,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':15,
+        'thumbnail': '../static/images/toys/ukids1.jpg',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -25,17 +144,19 @@ Toys = [
 Laptop = [
     {
         'id':1,
-        'thumbnail': '../static/images/laptop1.png',
+        'thumbnail': '../static/images/laptops/ulaptop1.png',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/laptop1.png',
+        'thumbnail': '../static/images/laptops/ulaptop2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -43,17 +164,28 @@ Laptop = [
 Shoes = [
     {
         'id':1,
-        'thumbnail': '../static/images/shoes1.png',
+        'thumbnail': '../static/images/shoes/ushoes1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/shoes1.png',
+        'thumbnail': '../static/images/shoes/ushoes2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+     {
+        'id':2,
+        'thumbnail': '../static/images/shoes/ushoes3.png',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -61,17 +193,28 @@ Shoes = [
 Mobile = [
     {
         'id':1,
-        'thumbnail': '../static/images/mobile1.png',
+        'thumbnail': '../static/images/mobiles/umobile1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/mobile1.png',
+        'thumbnail': '../static/images/mobiles/umobile2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
+        'actula_price':'₹1,000',
+        'offer_percentage': '50% off'
+    },
+    {
+        'id':3,
+        'thumbnail': '../static/images/mobiles/umobile3.png',
+        'brand':'funskool',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -79,17 +222,19 @@ Mobile = [
 Headphones = [
     {
         'id':1,
-        'thumbnail': '../static/images/headphones1.png',
+        'thumbnail': '../static/images/headphones/uheadphones1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/headphones1.png',
+        'thumbnail': '../static/images/headphones/uheadphones2.png',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -97,17 +242,19 @@ Headphones = [
 Women = [
     {
         'id':1,
-        'thumbnail': '../static/images/women1.png',
+        'thumbnail': '../static/images/women/uwomen1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/women1.png',
+        'thumbnail': '../static/images/women/uwomen2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -115,17 +262,19 @@ Women = [
 Speaker = [
     {
         'id':1,
-        'thumbnail': '../static/images/speaker1.png',
+        'thumbnail': '../static/images/speakers/uspeaker1.jpeg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/speaker1.png',
+        'thumbnail': '../static/images/speakers/uspeaker2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -133,17 +282,19 @@ Speaker = [
 CollegeBag = [
     {
         'id':1,
-        'thumbnail': '../static/images/cbag1.png',
+        'thumbnail': '../static/images/collegebags/ucbag1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/cbag1.png',
+        'thumbnail': '../static/images/collegebags/ucbag2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -151,17 +302,19 @@ CollegeBag = [
 Handbags = [
     {
         'id':1,
-        'thumbnail': '../static/images/hbags1.png',
+        'thumbnail': '../static/images/handbags/uhbags1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/hbags1.png',
+        'thumbnail': '../static/images/handbags/uhbags2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -169,17 +322,19 @@ Handbags = [
 Men = [
     {
         'id':1,
-        'thumbnail': '../static/images/men1.png',
+        'thumbnail': '../static/images/men/umen1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/men1.png',
+        'thumbnail': '../static/images/men/umen2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -187,17 +342,19 @@ Men = [
 TShirt = [
     {
         'id':1,
-        'thumbnail': '../static/images/tshirt1.png',
+        'thumbnail': '../static/images/tshirts/utshirt1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/tshirt1.png',
+        'thumbnail': '../static/images/tshirts/utshirt2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }
@@ -205,17 +362,19 @@ TShirt = [
 Watch = [
     {
         'id':1,
-        'thumbnail': '../static/images/watch1.png',
+        'thumbnail': '../static/images/watches/uwatch1.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     },
     {
         'id':2,
-        'thumbnail': '../static/images/watch1.png',
+        'thumbnail': '../static/images/watches/uwatch2.jpg',
         'brand':'funskool',
-        'offer_pice':'₹500',
+        'smalld': 'Teddy Bear',
+        'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
     }

@@ -54,6 +54,7 @@
 .card{
     width: 19%;
     border-radius: 10rem;
+    position: relative;
 }
 
 .card a img{
@@ -92,7 +93,7 @@
 }
 
 .product-grid a img:hover, .card:hover{
-    margin-top: -.4rem;
+    transform: translateY(-0.4rem);
     transition: all .25s;
 }
 

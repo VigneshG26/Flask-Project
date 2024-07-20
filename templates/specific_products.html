@@ -10,17 +10,32 @@
     {% include 'bootstrap_css.html' %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
+<body id="body">
     {% include 'navbar.html' %}
-    {% for category in categories %}
-        <div>
-        <img src="{{category['thumbnail']}}" alt="{{category['id']}}" height="300px">
-        <!-- <p>{{category['brand']}}</p>
-        <p>{{category['offer_pice']}}</p>
-        <p>{{category['actula_price']}}</p>
-        <p>{{category['offer_percentage']}}</p> -->
+    
+
+    <section id="product-container">
+        <div class="product-sub-container">
+            {% for category in categories %}
+            <div class="product-card">
+                <a href="">
+                    <div>
+                        <img src="{{category['thumbnail']}}" alt="{{category['id']}}" id="product-card-img">
+                    </div>
+                    <div>
+                        <h4 id="brand">{{category['brand']}}</h4>
+                        <h6 id="brand">{{category['smalld']}}</h6>
+                        <div class="price-details">
+                            <p id="offp">{{category['offer_price']}}</p> 
+                            <p><strike id="actp"> {{category['actula_price']}} </strike></p> 
+                            <p id="offper">{{category['offer_percentage']}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </section>
 
 
     {% include 'footer.html' %}
