@@ -481,8 +481,8 @@ CollegeBag = [
     {
         'id':1,
         'thumbnail': '../static/images/collegebags/ucbag1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
+        'brand':'LayOneX',
+        'smalld': 'College Bags',
         'offer_price':'₹500',
         'actula_price':'₹1,000',
         'offer_percentage': '50% off'
@@ -490,47 +490,173 @@ CollegeBag = [
     {
         'id':2,
         'thumbnail': '../static/images/collegebags/ucbag2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
+        'brand':'KNS',
+        'smalld': 'College Bags',
+        'offer_price':'₹666',
         'actula_price':'₹1,000',
+        'offer_percentage': '33% off'
+    },
+    {
+        'id':3,
+        'thumbnail': '../static/images/collegebags/cbag3.jpeg',
+        'brand':'Right Choice',
+        'smalld': 'College Bags',
+        'offer_price':'₹450',
+        'actula_price':'₹500',
+        'offer_percentage': '10% off'
+    },
+    {
+        'id':4,
+        'thumbnail': '../static/images/collegebags/cbag4.jpeg',
+        'brand':'KNS',
+        'smalld': 'College Bags',
+        'offer_price':'₹750',
+        'actula_price':'₹1,000',
+        'offer_percentage': '25% off'
+    },
+    {
+        'id':5,
+        'thumbnail': '../static/images/collegebags/cbag5.jpg',
+        'brand':'American Tourist',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,040',
+        'actula_price':'₹1,300',
+        'offer_percentage': '20% off'
+    },
+    {
+        'id':6,
+        'thumbnail': '../static/images/collegebags/cbag6.jpg',
+        'brand':'American Tourist',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,870',
+        'actula_price':'₹2,200',
+        'offer_percentage': '15% off'
+    },
+    {
+        'id':7,
+        'thumbnail': '../static/images/collegebags/cbag7.avif',
+        'brand':'Sky Bags',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,125',
+        'actula_price':'₹1,250',
+        'offer_percentage': '10% off'
+    },
+    {
+        'id':8,
+        'thumbnail': '../static/images/collegebags/cbag8.jpg',
+        'brand':'Sky Bags',
+        'smalld': 'College Bags',
+        'offer_price':'₹750',
+        'actula_price':'₹1,500',
         'offer_percentage': '50% off'
     },
     {
-        'id':1,
-        'thumbnail': '../static/images/collegebags/ucbag1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':9,
+        'thumbnail': '../static/images/collegebags/cbag9.jpg',
+        'brand':'Wilf Craft',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,160',
+        'actula_price':'₹1,550',
+        'offer_percentage': '25% off'
     },
     {
-        'id':2,
-        'thumbnail': '../static/images/collegebags/ucbag2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':10,
+        'thumbnail': '../static/images/collegebags/cbag10.jpeg',
+        'brand':'Wilf Craft',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,120',
+        'actula_price':'₹1,400',
+        'offer_percentage': '20% off'
     },
     {
-        'id':1,
-        'thumbnail': '../static/images/collegebags/ucbag1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':11,
+        'thumbnail': '../static/images/collegebags/cbag11.jpg',
+        'brand':'Tommy Hilfiger',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,955',
+        'actula_price':'₹2,300',
+        'offer_percentage': '15% off'
     },
     {
-        'id':2,
-        'thumbnail': '../static/images/collegebags/ucbag2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':12,
+        'thumbnail': '../static/images/collegebags/cbag12.jpg',
+        'brand':'Tommy Hilfiger',
+        'smalld': 'College Bags',
+        'offer_price':'₹990',
+        'actula_price':'₹1,100',
+        'offer_percentage': '10% off'
+    },
+    {
+        'id':13,
+        'thumbnail': '../static/images/collegebags/cbag13.jpg',
+        'brand':'Puma',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,275',
+        'actula_price':'₹1,700',
+        'offer_percentage': '25% off'
+    },
+    {
+        'id':14,
+        'thumbnail': '../static/images/collegebags/cbag14.jpg',
+        'brand':'Puma',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,351',
+        'actula_price':'₹1,930',
+        'offer_percentage': '30% off'
+    },
+    {
+        'id':15,
+        'thumbnail': '../static/images/collegebags/cbag15.jpg',
+        'brand':'Reebok',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,334',
+        'actula_price':'₹1,450',
+        'offer_percentage': '8% off'
+    },
+    {
+        'id':16,
+        'thumbnail': '../static/images/collegebags/cbag16.jpg',
+        'brand':'Reebok',
+        'smalld': 'College Bags',
+        'offer_price':'₹954',
+        'actula_price':'₹1,125',
+        'offer_percentage': '16% off'
+    },
+    {
+        'id':17,
+        'thumbnail': '../static/images/collegebags/cbag17.jpg',
+        'brand':'Ak Inter',
+        'smalld': 'College Bags',
+        'offer_price':'₹826',
+        'actula_price':'₹1,180',
+        'offer_percentage': '30% off'
+    },
+    {
+        'id':18,
+        'thumbnail': '../static/images/collegebags/cbag18.jpg',
+        'brand':'Nike',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,564',
+        'actula_price':'₹1,840',
+        'offer_percentage': '15% off'
+    },
+    {
+        'id':19,
+        'thumbnail': '../static/images/collegebags/cbag19.jpg',
+        'brand':'Nike',
+        'smalld': 'College Bags',
+        'offer_price':'₹1,495',
+        'actula_price':'₹1,625',
+        'offer_percentage': '8% off'
+    },
+    {
+        'id':20,
+        'thumbnail': '../static/images/collegebags/cbag20.jpg',
+        'brand':'Asian Bags',
+        'smalld': 'College Bags',
+        'offer_price':'₹920',
+        'actula_price':'₹1,150',
+        'offer_percentage': '20% off'
     }
 ]
 Handbags = [
