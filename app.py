@@ -816,7 +816,7 @@ Handbags = [
     {
         'id':18,
         'thumbnail': '../static/images/handbags/hbags18.jpg',
-        'brand':'Michael Kors ',
+        'brand':'Michael Kors',
         'smalld': 'Hand Bag',
         'offer_price':'₹1,056',
         'actula_price':'₹1,200',
@@ -825,7 +825,7 @@ Handbags = [
     {
         'id':19,
         'thumbnail': '../static/images/handbags/hbags19.jpg',
-        'brand':'Michael Kors ',
+        'brand':'Michael Kors',
         'smalld': 'Hand Bag',
         'offer_price':'₹1,1360',
         'actula_price':'₹1,600',
