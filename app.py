@@ -483,9 +483,9 @@ CollegeBag = [
         'thumbnail': '../static/images/collegebags/ucbag1.jpg',
         'brand':'LayOneX',
         'smalld': 'College Bags',
-        'offer_price':'₹500',
+        'offer_price':'₹600',
         'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'offer_percentage': '40% off'
     },
     {
         'id':2,
@@ -546,9 +546,9 @@ CollegeBag = [
         'thumbnail': '../static/images/collegebags/cbag8.jpg',
         'brand':'Sky Bags',
         'smalld': 'College Bags',
-        'offer_price':'₹750',
+        'offer_price':'₹900',
         'actula_price':'₹1,500',
-        'offer_percentage': '50% off'
+        'offer_percentage': '40% off'
     },
     {
         'id':9,
@@ -663,56 +663,182 @@ Handbags = [
     {
         'id':1,
         'thumbnail': '../static/images/handbags/uhbags1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
+        'brand':'Herald',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹850',
         'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'offer_percentage': '15% off'
     },
     {
         'id':2,
         'thumbnail': '../static/images/handbags/uhbags2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'brand':'Herald',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹792',
+        'actula_price':'₹900',
+        'offer_percentage': '12% off'
     },
     {
-        'id':1,
-        'thumbnail': '../static/images/handbags/uhbags1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':3,
+        'thumbnail': '../static/images/handbags/hbags3.png',
+        'brand':'Madewell',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,025',
+        'actula_price':'₹1,250',
+        'offer_percentage': '18% off'
     },
     {
-        'id':2,
-        'thumbnail': '../static/images/handbags/uhbags2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':4,
+        'thumbnail': '../static/images/handbags/hbags4.jpg',
+        'brand':'Madewell',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹899',
+        'actula_price':'₹1,040',
+        'offer_percentage': '14% off'
     },
     {
-        'id':1,
-        'thumbnail': '../static/images/handbags/uhbags1.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':5,
+        'thumbnail': '../static/images/handbags/hbags5.jpg',
+        'brand':'Cocolyn',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹784',
+        'actula_price':'₹980',
+        'offer_percentage': '20% off'
     },
     {
-        'id':2,
-        'thumbnail': '../static/images/handbags/uhbags2.jpg',
-        'brand':'funskool',
-        'smalld': 'Teddy Bear',
-        'offer_price':'₹500',
-        'actula_price':'₹1,000',
-        'offer_percentage': '50% off'
+        'id':6,
+        'thumbnail': '../static/images/handbags/hbags6.png',
+        'brand':'Cocolyn',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹510',
+        'actula_price':'₹600',
+        'offer_percentage': '15% off'
+    },
+    {
+        'id':7,
+        'thumbnail': '../static/images/handbags/hbags7.jpg',
+        'brand':'Kangaroo',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹2,385',
+        'actula_price':'₹2,840',
+        'offer_percentage': '16% off'
+    },
+    {
+        'id':8,
+        'thumbnail': '../static/images/handbags/hbags8.jpg',
+        'brand':'Kangaroo',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹2,288',
+        'actula_price':'₹2,570',
+        'offer_percentage': '11% off'
+    },
+    {
+        'id':9,
+        'thumbnail': '../static/images/handbags/hbags9.jpg',
+        'brand':'Salvo',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹699',
+        'actula_price':'₹862',
+        'offer_percentage': '19% off'
+    },
+    {
+        'id':10,
+        'thumbnail': '../static/images/handbags/hbags10.jpg',
+        'brand':'Salvo',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,156',
+        'actula_price':'₹1,329',
+        'offer_percentage': '13% off'
+    },
+    {
+        'id':11,
+        'thumbnail': '../static/images/handbags/hbags11.jpeg',
+        'brand':'Berrylush',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹990',
+        'actula_price':'₹1,100',
+        'offer_percentage': '10% off'
+    },
+    {
+        'id':12,
+        'thumbnail': '../static/images/handbags/hbags12.png',
+        'brand':'Berrylush',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,100',
+        'actula_price':'₹1,250',
+        'offer_percentage': '12% off'
+    },
+    {
+        'id':13,
+        'thumbnail': '../static/images/handbags/hbags13.jpg',
+        'brand':'Caprese Callie',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹899',
+        'actula_price':'₹999',
+        'offer_percentage': '11% off'
+    },
+    {
+        'id':14,
+        'thumbnail': '../static/images/handbags/hbags14.jpg',
+        'brand':'Caprese Callie',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹550',
+        'actula_price':'₹620',
+        'offer_percentage': '12% off'
+    },
+    {
+        'id':15,
+        'thumbnail': '../static/images/handbags/hbags15.jpg',
+        'brand':'Jeep',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,140',
+        'actula_price':'₹1,200',
+        'offer_percentage': '5% off'
+    },
+    {
+        'id':16,
+        'thumbnail': '../static/images/handbags/hbags16.png',
+        'brand':'Allen Solly',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,732',
+        'actula_price':'₹2,165',
+        'offer_percentage': '20% off'
+    },
+    {
+        'id':17,
+        'thumbnail': '../static/images/handbags/hbags17.jpg',
+        'brand':'Allen Solly',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,092',
+        'actula_price':'₹1,199',
+        'offer_percentage': '9% off'
+    },
+    {
+        'id':18,
+        'thumbnail': '../static/images/handbags/hbags18.jpg',
+        'brand':'Michael Kors ',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,056',
+        'actula_price':'₹1,200',
+        'offer_percentage': '12% off'
+    },
+    {
+        'id':19,
+        'thumbnail': '../static/images/handbags/hbags19.jpg',
+        'brand':'Michael Kors ',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹1,1360',
+        'actula_price':'₹1,600',
+        'offer_percentage': '15% off'
+    },
+    {
+        'id':20,
+        'thumbnail': '../static/images/handbags/hbags20.jpg',
+        'brand':'Trava',
+        'smalld': 'Hand Bag',
+        'offer_price':'₹588',
+        'actula_price':'₹700',
+        'offer_percentage': '16% off'
     }
 ]
 Men = [
