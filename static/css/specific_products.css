@@ -37,7 +37,7 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    align-self: flex-start;
     justify-content: space-between;
     max-height: 310px;
     min-height: 310px;

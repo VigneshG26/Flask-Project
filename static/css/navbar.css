@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 
-#logo a img{
+#logo img{
     height: 3.4rem;
 }
 
@@ -107,7 +107,8 @@
 
 @media (max-width:600px) {
     .hamburger-box{
-        opacity: 1;
+        display: flex;
+        flex-direction: column;
     }
     .nav-bar{
         flex-direction: column;
